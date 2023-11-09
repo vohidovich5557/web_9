@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Poppins:wght@500;600;700&display=swap');
+ 
+ body{
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 121px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.info_title{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.521px;
+    width: 525px;
+}
+
+.info_text{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 437px;
+}
+
+.page_link2{
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.268px;
+}
+
+.login_link{
+    width: 617px;
+    display: flex;
+}
+
+.page_link{
+    border-radius: 10px;
+    background: #5E54A4;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    width: 617px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.268px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 107px;
+    padding-left: 111px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.form{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    width: 540px;
+    flex-direction: column;
+    margin-top: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.input_name{
+    border-radius: 5px;
+    border: 1px solid #5E54A4;
+    background: #FFF;
+    width: 460px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 58px;
+    margin-bottom: 20px;
+    color: #3D3B48;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+}
+
+.input_surname{
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    width: 460px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 58px;
+    margin-bottom: 20px;
+    color: #3D3B48;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+}
+
+.input_email{
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    width: 460px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 58px;
+    margin-bottom: 20px;
+    color: #3D3B48;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+}
+
+.input_password{
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    width: 460px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+    padding-right: 58px;
+    margin-bottom: 20px;
+    color: #3D3B48;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+}
+
+.login_btn{
+    border-radius: 5px;
+    border: 1px solid white;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    width: 460px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 133px;
+    padding-left: 134px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.page_text{
+    color: #BAB7D4;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 85.5px;
+    margin-right: 85.5px;
+}
+
+.page_text2{
+    color: #FF7979;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 26px;
+}
